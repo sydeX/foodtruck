@@ -11,15 +11,21 @@ class FoodTruckCollection(object):
     def addTruck(self, truck):
         self.trucks.append(truck)
 
+    def __len__(self):
+        return len(self.trucks)
+
     @staticmethod
     def createfromURL(url):
         res = []
         data = loadURL(url)
 
-        for params in data:
-            ft = FoodTruck(params)
-            if ft.hasLocation():
-                res.append(ft)
+        if data != None:
+            for params in data:
+                ft = FoodTruck(params)
+                if ft.hasLocation():
+                    res.append(ft)
+        else:
+            logging.warning("No data returned from URL %s" % url)
 
         return FoodTruckCollection(res)
 
@@ -32,9 +38,7 @@ class FoodTruckCollection(object):
         jsonizedTrucks = []
 
         try:
-            logging.info("*************** " + str(address))
             addrCoord = getCoordByAddress(address)
-            logging.info("*************** " + str(addrCoord))
             resDict['mapcenter'] = addrCoord
 
             for truck in self.trucks:

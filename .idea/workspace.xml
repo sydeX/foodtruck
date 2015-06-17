@@ -2,108 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23967345-6d7b-4dd1-8770-e49a744c676c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utilities/utils.py" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\img\food-truck-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\googlemaps\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\googlemaps\client.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\googlemaps\convert.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\googlemaps\directions.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\googlemaps\distance_matrix.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\googlemaps\elevation.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\googlemaps\exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\googlemaps\geocoding.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\googlemaps\roads.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\googlemaps\timezone.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\adapters.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\api.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\auth.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\cacert.pem" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\certs.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\compat.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\cookies.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\hooks.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\models.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\big5freq.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\big5prober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\chardetect.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\chardistribution.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\charsetgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\charsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\codingstatemachine.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\compat.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\constants.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\cp949prober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\escprober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\escsm.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\eucjpprober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\euckrfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\euckrprober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\euctwfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\euctwprober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\gb2312freq.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\gb2312prober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\hebrewprober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\jisfreq.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\jpcntx.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\langbulgarianmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\langcyrillicmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\langgreekmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\langhebrewmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\langhungarianmodel.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\langthaimodel.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\latin1prober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\mbcharsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\mbcsgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\mbcssm.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\sbcharsetprober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\sbcsgroupprober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\sjisprober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\universaldetector.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\chardet\utf8prober.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\_collections.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\connection.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\connectionpool.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\contrib\ntlmpool.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\contrib\pyopenssl.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\exceptions.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\fields.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\filepost.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\packages\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\packages\ordered_dict.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\packages\six.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\packages\ssl_match_hostname\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\packages\ssl_match_hostname\_implementation.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\poolmanager.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\request.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\response.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\util\__init__.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\util\connection.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\util\request.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\util\response.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\util\retry.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\util\ssl_.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\util\timeout.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\util\url.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\sessions.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\status_codes.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\structures.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\utils.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\models\datatypes.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\models\map.py" afterPath="" />
-      <change type="DELETED" beforePath="C:\code\github\x.yang\food_truck\test.py" afterPath="" />
-      <change type="MOVED" beforePath="C:\code\github\x.yang\food_truck\lib\requests\packages\urllib3\contrib\__init__.py" afterPath="$PROJECT_DIR$/models/food_truck_collection.py" />
-      <change type="MOVED" beforePath="C:\code\github\x.yang\food_truck\models\foodtruck.py" afterPath="$PROJECT_DIR$/models/food_truck.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.yaml" afterPath="$PROJECT_DIR$/app.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appengine_config.py" afterPath="$PROJECT_DIR$/appengine_config.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/main.css" afterPath="$PROJECT_DIR$/stylesheets/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.py" afterPath="$PROJECT_DIR$/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/map.js" afterPath="$PROJECT_DIR$/js/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unittests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unittests/models/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unittests/models/test_foodTruck.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/unittests/models/test_foodTruckCollection.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/food_truck.py" afterPath="$PROJECT_DIR$/models/food_truck.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/food_truck_collection.py" afterPath="$PROJECT_DIR$/models/food_truck_collection.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Uber Food Truck.iws" />
@@ -126,106 +30,92 @@
     <favorites_list name="Uber Food Truck" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="food_truck.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/food_truck.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1298">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="appengine_config.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appengine_config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="396">
-              <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="food_truck_collection.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/food_truck_collection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.666667" vertical-offset="462" max-vertical-offset="1232">
-              <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.yaml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.6" vertical-offset="217" max-vertical-offset="814">
-              <caret line="31" column="39" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.612904" vertical-offset="132" max-vertical-offset="968">
-              <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.75862" vertical-offset="396" max-vertical-offset="3322">
-              <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-              <caret line="9" column="79" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="79" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/utilities/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.9337861" vertical-offset="0" max-vertical-offset="1034">
-              <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="map.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/map.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-90.76" vertical-offset="327" max-vertical-offset="4554">
-              <caret line="118" column="58" selection-start-line="118" selection-start-column="58" selection-end-line="118" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="test_foodTruckCollection.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/unittests/models/test_foodTruckCollection.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="1078">
+                  <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mock.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://C:/Python27/Lib/site-packages/mock.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="26472" max-vertical-offset="52184">
+                  <caret line="1212" column="0" selection-start-line="1212" selection-start-column="0" selection-end-line="1212" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/main.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="880">
+                  <caret line="9" column="79" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="79" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/index.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-19.032259" vertical-offset="26" max-vertical-offset="968">
+                  <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.css" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="4.8436975" vertical-offset="0" max-vertical-offset="3366">
+                  <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="food_truck_collection.py" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/models/food_truck_collection.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="1320">
+                  <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#54#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="food_truck_collection.py" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/models/food_truck_collection.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.10628743" vertical-offset="589" max-vertical-offset="1320">
+                  <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#54#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -244,13 +134,17 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/map.js" />
-        <option value="$PROJECT_DIR$/stylesheets/main.css" />
         <option value="$PROJECT_DIR$/models/utils.py" />
         <option value="$PROJECT_DIR$/appengine_config.py" />
-        <option value="$PROJECT_DIR$/models/food_truck.py" />
         <option value="$PROJECT_DIR$/app.yaml" />
-        <option value="$PROJECT_DIR$/models/food_truck_collection.py" />
         <option value="$PROJECT_DIR$/utilities/utils.py" />
+        <option value="$PROJECT_DIR$/stylesheets/main.css" />
+        <option value="$PROJECT_DIR$/unittests/utilities/test_utiles.py" />
+        <option value="$PROJECT_DIR$/unittests/utilities/test_utils.py" />
+        <option value="$PROJECT_DIR$/models/food_truck.py" />
+        <option value="$PROJECT_DIR$/unittests/models/test_foodTruck.py" />
+        <option value="$PROJECT_DIR$/models/food_truck_collection.py" />
+        <option value="$PROJECT_DIR$/unittests/models/test_foodTruckCollection.py" />
       </list>
     </option>
   </component>
@@ -301,7 +195,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="food_truck" />
+              <option name="myItemId" value="foodtruck" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,7 +205,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="food_truck" />
+              <option name="myItemId" value="foodtruck" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -325,7 +219,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="food_truck" />
+              <option name="myItemId" value="foodtruck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unittests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Uber Food Truck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="foodtruck" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -339,7 +247,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="food_truck" />
+              <option name="myItemId" value="foodtruck" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -353,7 +261,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="food_truck" />
+              <option name="myItemId" value="foodtruck" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -371,6 +279,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/unittests/utilities" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -382,21 +291,127 @@
       <recent name="C:\code\github\x.yang\food_truck\utilities" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.distance_matrix">
-    <configuration default="false" name="distance_matrix" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python tests.Unittests in test_foodTruckCollection">
+    <configuration default="false" name="Unittest TestFoodTruckCollection.test_createfromURL_dataURL" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
+      <envs />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/googlemaps" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittests/models" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Uber Food Truck" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/googlemaps/distance_matrix.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittests/models/test_foodTruckCollection.py" />
+      <option name="CLASS_NAME" value="TestFoodTruckCollection" />
+      <option name="METHOD_NAME" value="test_createfromURL_dataURL" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestFoodTruckCollection.test_createfromURL_dataURL_withLocation" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittests/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Uber Food Truck" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittests/models/test_foodTruckCollection.py" />
+      <option name="CLASS_NAME" value="TestFoodTruckCollection" />
+      <option name="METHOD_NAME" value="test_createfromURL_dataURL_withLocation" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittests in test_foodTruckCollection" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittests/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Uber Food Truck" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittests/models/test_foodTruckCollection.py" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestFoodTruckCollection.test_getTruckData" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittests/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Uber Food Truck" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittests/models/test_foodTruckCollection.py" />
+      <option name="CLASS_NAME" value="TestFoodTruckCollection" />
+      <option name="METHOD_NAME" value="test_getTruckData" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unittest TestFoodTruckCollection.test_getTruckData_statusError" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/unittests/models" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Uber Food Truck" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unittests/models/test_foodTruckCollection.py" />
+      <option name="CLASS_NAME" value="TestFoodTruckCollection" />
+      <option name="METHOD_NAME" value="test_getTruckData_statusError" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
@@ -522,12 +537,20 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Python.distance_matrix" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestFoodTruckCollection.test_createfromURL_dataURL" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestFoodTruckCollection.test_createfromURL_dataURL_withLocation" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_foodTruckCollection" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestFoodTruckCollection.test_getTruckData" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestFoodTruckCollection.test_getTruckData_statusError" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.distance_matrix" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_foodTruckCollection" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestFoodTruckCollection.test_getTruckData_statusError" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestFoodTruckCollection.test_getTruckData" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestFoodTruckCollection.test_createfromURL_dataURL_withLocation" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestFoodTruckCollection.test_createfromURL_dataURL" />
       </list>
     </recent_temporary>
   </component>
@@ -545,31 +568,35 @@
       <created>1434515695235</created>
       <updated>1434515695235</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adjusted border radius for table rows">
+      <created>1434578603003</created>
+      <updated>1434578603003</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1864" height="1098" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13163596" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13109426" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32820514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2676923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -588,7 +615,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="- Updated food truck python server api&#10;- Source data from SF food truck gov data&#10;- Compute distances for food trucks&#10;- Fixed filtering by name&#10;- Added filtering by food item&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="- Updated food truck python server api&#10;- Source data from SF food truck gov data&#10;- Compute distances for food trucks&#10;- Fixed filtering by name&#10;- Added filtering by food item&#10;" />
+    <MESSAGE value="Adjusted border radius for table rows" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjusted border radius for table rows" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -597,22 +625,66 @@
           <url>file://$PROJECT_DIR$/utilities/utils.py</url>
           <line>35</line>
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/unittests/models/test_foodTruckCollection.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/models/food_truck_collection.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/unittests/models/test_foodTruckCollection.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/models/food_truck_collection.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="1" />
+      <option name="time" value="12" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/map.js">
+    <entry file="file://$PROJECT_DIR$/models/food_truck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-90.76" vertical-offset="327" max-vertical-offset="4554">
-          <caret line="118" column="58" selection-start-line="118" selection-start-column="58" selection-end-line="118" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1298">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appengine_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="264" max-vertical-offset="396">
+          <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/food_truck_collection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="462" max-vertical-offset="1232">
+          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="217" max-vertical-offset="814">
+          <caret line="31" column="39" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.612904" vertical-offset="132" max-vertical-offset="968">
+        <state vertical-scroll-proportion="0.0" vertical-offset="616" max-vertical-offset="968">
           <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
           <folding />
         </state>
@@ -620,15 +692,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.75862" vertical-offset="396" max-vertical-offset="3322">
+        <state vertical-scroll-proportion="0.0" vertical-offset="396" max-vertical-offset="3322">
           <caret line="49" column="36" selection-start-line="49" selection-start-column="36" selection-end-line="49" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="990">
+          <caret line="9" column="79" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utilities/utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="1034">
+          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="327" max-vertical-offset="4554">
+          <caret line="118" column="58" selection-start-line="118" selection-start-column="58" selection-end-line="118" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.4743729" vertical-offset="327" max-vertical-offset="4554">
+          <caret line="118" column="58" selection-start-line="118" selection-start-column="58" selection-end-line="118" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.6" vertical-offset="217" max-vertical-offset="814">
+        <state vertical-scroll-proportion="0.0" vertical-offset="217" max-vertical-offset="814">
           <caret line="31" column="39" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="39" />
           <folding />
         </state>
@@ -642,13 +748,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/food_truck.py">
+    <entry file="file://$PROJECT_DIR$/index.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="66" max-vertical-offset="1298">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="942">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -656,29 +760,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
           <caret line="9" column="79" selection-start-line="9" selection-start-column="56" selection-end-line="9" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/unittests/models/test_foodTruck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6094946" vertical-offset="922" max-vertical-offset="1606">
+          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/food_truck.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68688846" vertical-offset="1057" max-vertical-offset="1760">
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.032259" vertical-offset="26" max-vertical-offset="968">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/mock.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="26472" max-vertical-offset="52184">
+          <caret line="1212" column="0" selection-start-line="1212" selection-start-column="0" selection-end-line="1212" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/food_truck_collection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.666667" vertical-offset="462" max-vertical-offset="1232">
-          <caret line="34" column="57" selection-start-line="34" selection-start-column="57" selection-end-line="34" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="419" max-vertical-offset="1320">
+          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/unittests/models/test_foodTruckCollection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6666667" vertical-offset="0" max-vertical-offset="1078">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/utilities/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9337861" vertical-offset="0" max-vertical-offset="1034">
-          <caret line="25" column="60" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.5875" vertical-offset="64" max-vertical-offset="1034">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.8436975" vertical-offset="0" max-vertical-offset="3366">
+          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
