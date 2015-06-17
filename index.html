@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+        <title>Uber Food Truck</title>
+
+
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+        <script src="/js/map.js"></script>
+
+    </head>
+
+    <body>
+        <div id="header">
+            <div id="search-container">
+                <button id="search-btn">Go!</button>
+                <span><input type="text" id="search-text" value="{{ DefaultLocation }}" ></span>
+            </div>
+        </div>
+        <div id="main">
+            <div id="map-canvas"></div>
+            <div id="result-container">
+                <label>Distance:</label><label for="range-bar" id="range-label">1.0</label><label>mi.</label><br>
+                <input type="range" id="range-bar" value="1" min="0.1" max="5.0" step="0.1" oninput="updateRange(value)">
+                <label>Sort by</label>
+                <input type="radio" id="sort-by-name" name="sort-type" onclick="sortList()" checked><label>Name</label>
+                <input type="radio" id="sort-by-dist" name="sort-type" onclick="sortList()"><label>Distance</label>
+                <br><input type="text" id="filter-text" placeholder="Search Foodtruck Name or Food Item" onkeyup="renderResult()">
+                <div class="scroll"><table id="table-view"></table></div>
+            </div>
+        </div>
+
+        <script>
+        var CENTER_LOCATION = "{{ DefaultLocation }}"
+        </script>
+    </body>
+
+
