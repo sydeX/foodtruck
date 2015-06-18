@@ -37,10 +37,10 @@ On each page refresh, or address change, the app front-end retrieves the food tr
 
 Back-End:
 ----
-The app backend provides an API that takes in an address as input, convert address to LagLng coordinates, calculate distance towards the input address for each truck, and sends back results in JSON format containing the following:
+The app backend provides an API that takes in an address as input, convert address to coordinates, calculate distance towards the input address for each truck, and sends back results in JSON format containing the following:
 
 1. Status of the request (OK/Error)
-2. LatLng coordinates of the address 
+2. Coordinates of the address 
 3. Food truck information
 
 On the server side, a collection of food truck objects will be created on app start, and the same collection is used on each subsequent requests. The in-memory list is quick to process and sufficient for the purpose of this project given data size is small. Depending on the requirements and data size, other possible implementations like database can also be used.
