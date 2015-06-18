@@ -41,7 +41,6 @@ function clearCache() {
     truckObjList = []
 
     for (var i in truckMarkerDict){
-        alert(i)
         truckMarkerDict[i].setMap(null)
     }
     truckMarkerDict = {}
