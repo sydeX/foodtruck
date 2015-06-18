@@ -1,13 +1,9 @@
 import json
 import webapp2
-
+from utilities.food_truck_data_source import FoodTruckDataSource
 from jinja2 import Environment, PackageLoader
-from models.food_truck import FoodTruck
-from models.food_truck_collection import FoodTruckCollection
 
-URL = 'https://data.sfgov.org/resource/rqzj-sfat.json'
-URL_BASIC_FITLERS = '?status=APPROVED&$select=%s'% ','.join(filter(None, FoodTruck.ATTRIBUTE_MAP.values()))
-foodTruckCollection = FoodTruckCollection.createfromURL(URL + URL_BASIC_FITLERS)
+foodTruckCollection = FoodTruckDataSource.getFoodTrucks()
 
 class MainPage(webapp2.RequestHandler):
   def get(self):
@@ -25,7 +21,6 @@ class getFoodTruckDataByAddress(webapp2.RequestHandler):
         address = self.request.get('address')
         data = foodTruckCollection.getTruckData(address)
         self.response.out.write(json.dumps(data))
-
 
 app = webapp2.WSGIApplication([
     ('/', MainPage),

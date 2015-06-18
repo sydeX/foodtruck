@@ -44,6 +44,8 @@ function clearCache() {
         truckMarkerDict[i].setMap(null)
     }
     truckMarkerDict = {}
+
+    sortType = ''
 }
 
 function centerMap(address) {
@@ -92,15 +94,15 @@ function renderResult() {
     for (var i in truckObjList){
         var truck = truckObjList[i]
 
-        marker = truckMarkerDict[truck.applicant + truck.address + truck.fooditems]
+        marker = truckMarkerDict[truck.name + truck.address + truck.foodItems]
 
-        if (truck.distance < dist & hasFilterText([truck.applicant, truck.fooditems])) {
+        if (truck.distance < dist & hasFilterText([truck.name, truck.foodItems])) {
             // Only trucks within specified range and matching filter text are rendered
             tableRes += '<tr>'
             tableRes += '<td id=' + i + ' onclick="onSelectTruckItem(this)">'
-            tableRes += '<p class=name>' + truck.applicant + '</p>'
+            tableRes += '<p class=name>' + truck.name + '</p>'
             tableRes += '<p class=loc>' + truck.address + '</p>'
-            tableRes += '<p class=food>' + truck.fooditems + '</p>'
+            tableRes += '<p class=food>' + truck.foodItems + '</p>'
             tableRes += '</td>'
             tableRes += '<td class=loc>' + truck.distance + 'mi.</td>'
             tableRes += '</tr>'
@@ -140,9 +142,9 @@ function prepareTruckLocation(trucks){
             map: null,
         })
 
-        truckMarkerDict[truckInfo.applicant + truckInfo.address + truckInfo.fooditems] = marker
+        truckMarkerDict[truckInfo.name + truckInfo.address + truckInfo.foodItems] = marker
 
-        infowindowContent = truckInfo.applicant + '<br/>' + truckInfo.address + '<br />' + truckInfo.fooditems
+        infowindowContent = truckInfo.name + '<br/>' + truckInfo.address + '<br />' + truckInfo.foodItems
         bindInfowindowToMarker(marker, infowindowContent)
     }
     sortList()
@@ -180,8 +182,8 @@ function sortList() {
         // Sort list by name
         sortType = SORT_BY_NAME_ID
         truckObjList.sort(function(a, b) {
-            if(a.applicant < b.applicant) return -1;
-            if(a.applicant > b.applicant) return 1;
+            if(a.name < b.name) return -1;
+            if(a.name > b.name) return 1;
             return 0;
         });
     }

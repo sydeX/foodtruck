@@ -1,54 +1,33 @@
-import logging
-
-from utilities.utils import haversine, getCoordByAddress
+from utilities.utils import haversine
 
 class FoodTruck(object):
 
-    # Maps Food truck attribute to SF open data fields
-    ATTRIBUTE_MAP = {
-        'applicant':'applicant',
-        'fooditems':'fooditems',
-        'address'  :'address',
-        'latitude' :'latitude',
-        'longitude': 'longitude',
-        'distance' : None,
-    }
+    def __init__(self, name, foodItems, address, latitude, longitude):
+        self.name = name
+        self.foodItems = foodItems
+        self.address = address
+        self.latitude = latitude
+        self.longitude = longitude
+        self.distance = None
 
-    def __init__(self, attributes={}):
-        '''
-        Initialize all attributes defined in ATTRIBUTE_MAP
-        :param attributes: dictionary
-        :return: None
-        '''
-
-
-        for truckAttr, srcAttr in self.ATTRIBUTE_MAP.iteritems():
-            if attributes and attributes.has_key(srcAttr):
-                self.__setattr__(truckAttr, attributes.get(srcAttr))
-            else:
-                logging.warning("Missing truck attribute: %s" % truckAttr)
-                self.__setattr__(truckAttr, None)
-
-        #TODO: very slow as a lot of trucks are missing coords, can be enabled when preloading data to DB
-        #self._populateLatLng()
-
-    def _populateLatLng(self):
-        '''
-            Convert address to latlng coordinate if they are not specified
-        '''
-        if not self.hasLocation():
-            if self.address:
-                try:
-                    self.latitude, self.longitude = getCoordByAddress(self.address).values()
-                except:
-                    logging.warning("No location information found for truck %s" % self.applicant)
-            else:
-                logging.warning("No location information found for truck %s" % self.applicant)
+    # def _populateLatLng(self):
+    #     '''
+    #         Convert address to latlng coordinate if they are not specified
+    #         very slow as a lot of trucks are missing coords, can be enabled when preloading data to DB
+    #     '''
+    #     if not self.hasLocation():
+    #         if self.address:
+    #             try:
+    #                 self.latitude, self.longitude = getCoordByAddress(self.address).values()
+    #             except:
+    #                 logging.warning("No location information found for truck %s" % self.name)
+    #         else:
+    #             logging.warning("No location information found for truck %s" % self.name)
 
     def hasLocation(self):
         return self.latitude and self.longitude
 
-    def updateDistance(self, destLat, destLng):
+    def computeDistanceFromCoords(self, destLat, destLng):
         '''
         Calculate distance between the food truck and desitnation
         Update distance attribute with the calculated result

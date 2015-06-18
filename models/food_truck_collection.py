@@ -1,5 +1,4 @@
-from utilities.utils import loadURL, getCoordByAddress
-from models.food_truck import FoodTruck
+from utilities.utils import getCoordByAddress
 
 import logging
 
@@ -14,20 +13,6 @@ class FoodTruckCollection(object):
     def __len__(self):
         return len(self.trucks)
 
-    @staticmethod
-    def createfromURL(url):
-        res = []
-        data = loadURL(url)
-
-        if data != None:
-            for params in data:
-                ft = FoodTruck(params)
-                if ft.hasLocation():
-                    res.append(ft)
-        else:
-            logging.warning("No data returned from URL %s" % url)
-
-        return FoodTruckCollection(res)
 
     def getTruckData(self, address=None, toJson=True):
         '''
@@ -41,8 +26,9 @@ class FoodTruckCollection(object):
             addrCoord = getCoordByAddress(address)
             resDict['mapcenter'] = addrCoord
 
+            # Update distance for each truck
             for truck in self.trucks:
-                truck.updateDistance(addrCoord['lat'], addrCoord['lng'])
+                truck.computeDistanceFromCoords(addrCoord['lat'], addrCoord['lng'])
                 jsonizedTrucks.append(truck.toDict())
 
             resDict['trucks'] = jsonizedTrucks if toJson else self.trucks
