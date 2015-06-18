@@ -39,6 +39,11 @@ function initializeMap() {
 
 function clearCache() {
     truckObjList = []
+
+    for (var i in truckMarkerDict){
+        alert(i)
+        truckMarkerDict[i].setMap(null)
+    }
     truckMarkerDict = {}
 }
 
@@ -84,7 +89,7 @@ function renderResult() {
 
     var tableRes = ''
     var dist = document.getElementById(RANGE_BAR_ID).value
-    truckMarkerList = []
+
     for (var i in truckObjList){
         var truck = truckObjList[i]
 
