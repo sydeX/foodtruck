@@ -50,6 +50,9 @@ On the server side, a collection of food truck objects will be created on app st
 
 ######Technologies
 * Python (2yrs experience)
+
+  * Webapp2 - Nice web framework that works with Google App Engine.
+  * Jinja2 - This is a powerful template I've used before. It's dyanmic and easy to use. According to the reviews online, it's proven to be faster and easier to debug than Django templates. 
 * Google App Engine
 * Google Map Geocode API
 * Socrata Open Data API
