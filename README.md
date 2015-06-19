@@ -2,7 +2,7 @@
 The web app is hosted at 
 [http://foodtruck-977.appspot.com/](http://foodtruck-977.appspot.com/)
 
-![alt text](https://raw.github.com/sydeX/foodtruck/ScreenShot.png "Uber Food Truck Screenshot")
+![alt text](https://raw.githubusercontent.com/sydeX/foodtruck/master/ScreenShot.png "Uber Food Truck Screenshot")
 
 Feature Overview
 ----
