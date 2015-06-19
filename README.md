@@ -2,6 +2,8 @@
 The web app is hosted at 
 [http://foodtruck-977.appspot.com/](http://foodtruck-977.appspot.com/)
 
+![alt text](https://raw.github.com/sydeX/foodtruck/ScreenShot.png "Uber Food Truck Screenshot")
+
 Feature Overview
 ----
 This web application was designed to provide food trucks information found around a specified location. Results are displayed on an interactive map and a list that supports both sorted and filtered views.
