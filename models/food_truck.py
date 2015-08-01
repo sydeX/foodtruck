@@ -1,10 +1,11 @@
 from utilities.utils import haversine
 
+
 class FoodTruck(object):
 
-    def __init__(self, name, foodItems, address, latitude, longitude):
+    def __init__(self, name, fooditems, address, latitude, longitude):
         self.name = name
-        self.foodItems = foodItems
+        self.fooditems = fooditems
         self.address = address
         self.latitude = latitude
         self.longitude = longitude
@@ -24,10 +25,10 @@ class FoodTruck(object):
     #         else:
     #             logging.warning("No location information found for truck %s" % self.name)
 
-    def hasLocation(self):
+    def has_location(self):
         return self.latitude and self.longitude
 
-    def computeDistanceFromCoords(self, destLat, destLng):
+    def compute_distance_from_coords(self, destlat, destlng):
         '''
         Calculate distance between the food truck and desitnation
         Update distance attribute with the calculated result
@@ -37,17 +38,11 @@ class FoodTruck(object):
         :param destLng: destination longitude
         :type destLng: float or float in string format
         '''
-        if not self.hasLocation():
+        if not self.has_location():
             return
 
-        dist = haversine(float(self.longitude), float(self.latitude), float(destLng), float(destLat))
-        self.distance = round(dist,2)
+        dist = haversine(float(self.longitude), float(self.latitude), float(destlng), float(destlat))
+        self.distance = round(dist, 2)
 
-    def toDict(self):
+    def to_dict(self):
         return self.__dict__
-
-
-
-
-
-

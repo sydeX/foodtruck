@@ -1,7 +1,8 @@
 import logging
 from models.food_truck import FoodTruck
 from models.food_truck_collection import FoodTruckCollection
-from utilities.utils import loadURL
+from utilities.utils import load_url
+
 
 class FoodTruckDataSource(object):
     APPLICANT = 'applicant'
@@ -12,14 +13,14 @@ class FoodTruckDataSource(object):
 
     URL = 'https://data.sfgov.org/resource/rqzj-sfat.json'
     ATTRIBUTE_FIELDS = [APPLICANT, FOOD_ITEMS, ADDRESS, LATITUDE, LONGITUDE]
-    URL_BASIC_FITLER = '?status=APPROVED&$select=%s'% ','.join(filter(None, ATTRIBUTE_FIELDS))
+    URL_BASIC_FITLER = '?status=APPROVED&$select=%s' % ','.join(filter(None, ATTRIBUTE_FIELDS))
 
     @staticmethod
-    def getFoodTrucks():
+    def get_food_trucks():
         url = FoodTruckDataSource.URL + FoodTruckDataSource.URL_BASIC_FITLER
 
         res = []
-        data = loadURL(url)
+        data = load_url(url)
 
         if data != None:
             for params in data:
@@ -29,7 +30,7 @@ class FoodTruckDataSource(object):
                     attr_fields.append(params.get(field, None))
 
                 ft = FoodTruck(*attr_fields)
-                if ft.hasLocation():
+                if ft.has_location():
                     res.append(ft)
         else:
             logging.warning("No data returned from URL %s" % url)

@@ -1,40 +1,39 @@
-from utilities.utils import getCoordByAddress
-
+from utilities.utils import get_coord_by_address
 import logging
+
 
 class FoodTruckCollection(object):
 
     def __init__(self, trucklist=[]):
         self.trucks = trucklist
 
-    def addTruck(self, truck):
+    def add_truck(self, truck):
         self.trucks.append(truck)
 
     def __len__(self):
         return len(self.trucks)
 
-
-    def getTruckData(self, address=None, toJson=True):
+    def get_truck_data(self, address=None, to_json=True):
         '''
         :return: Map center coordinates, list of food truck data
         '''
 
-        resDict = {'status': 'OK'}
-        jsonizedTrucks = []
+        res_dict = {'status': 'OK'}
+        jsonized_trucks = []
 
         try:
-            addrCoord = getCoordByAddress(address)
-            resDict['mapcenter'] = addrCoord
+            addr_coord = get_coord_by_address(address)
+            res_dict['mapcenter'] = addr_coord
 
             # Update distance for each truck
             for truck in self.trucks:
-                truck.computeDistanceFromCoords(addrCoord['lat'], addrCoord['lng'])
-                jsonizedTrucks.append(truck.toDict())
+                truck.compute_distance_from_coords(addr_coord['lat'], addr_coord['lng'])
+                jsonized_trucks.append(truck.to_dict())
 
-            resDict['trucks'] = jsonizedTrucks if toJson else self.trucks
+            res_dict['trucks'] = jsonized_trucks if to_json else self.trucks
 
         except Exception as e:
             logging.error(e.message)
-            resDict = {'status': e.message }
+            res_dict = {'status': e.message}
 
-        return resDict
+        return res_dict
